@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  box-sizing: border-box;
+
+  
+}
+
+.navbar{
+    background-color: black;
+    margin: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+
+}
+.logo{
+    color: rgb(188, 240, 0);
+    font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 2.5em;
+  margin-left: 2%;
+  font-style: normal;
+display: flex;
+justify-content: space-between;
+}
+.navbar .subsections{
+    position: relative;
+    width: 50%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: right;
+}
+.subsections ul{
+    list-style: none;
+    display: flex;
+    height: 5em;
+    align-items: center;
+
+}
+.subsections ul li{
+    display: flex;
+    height: 3em;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subsections ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    height: 3em;
+    width: 5em;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.subsections ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.5em;
+    
+}
+
+@media screen and (max-width: 590px) {
+    .navbar .subsections {
+        display: none; /* Hide the element when screen width is <= 768px */
+      }
+    .navbar{
+        justify-content: center;
+        flex-direction: row;
+
+
+    }
+    /*Why does this nor work here */
+    /* .slide2{
+        flex-direction: column;
+        padding: 5%;
+        width: 99vw;
+        
+
+                
+       
+    }
+    .slide2 .card1{
+        background-image: linear-gradient(to left,rgb(131, 36, 255),blue);
+        height: 50vh;
+        width: 100%;
+        margin-bottom:7% ;
+    }
+    .slide2 .card2{
+        height: 50vh;
+        width: 100%;
+        margin-bottom:7% ;
+
+    }
+
+    .slide2 .card1 .content h1{
+        color: white;
+
+    } */
+         
+    
+    
+  }
+section{
+    background-color: rgb(199, 187, 187);
+    color: white;
+    padding: 25px 0;
+
+}
+.slide1{
+    background-color: orangered;
+    margin: 0% 2%;
+    border-radius: 5px;
+    display: flex;
+    height: 150%;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    }
+.slide1 .image{
+    background-color: black;
+    height: 30vh;
+    width: 35vw;
+    border: 2px solid white;
+    overflow: hidden;
+    background: url(./images/2.jpeg);
+    background-size:cover;
+    border-radius: 15px;
+}
+.slide1 .welcome{
+    width: 50%;
+}
+.slide1 .welcome h1{
+    font-size: 3em;
+}
+.slide2{
+    display: flex;
+    margin: 2% 0;
+    padding: 1%;
+    justify-content: space-between;
+    background-color: black;
+}
+.slide2 .card1{
+    height: 45vh;
+    width: 47vw;
+    background-color: rgb(236, 80, 80);
+    border-radius: 15px;
+    background-image: linear-gradient(to left,#00c3ff,#ffff1c);
+    padding: 5%;
+
+}
+.slide2 .card2{
+    height: 45vh;
+    width: 47vw;
+background-image: linear-gradient(to left,#00c3ff,#ff00ff);
+border-radius:  15px  ;
+padding: 5%;
+
+
+
+}
+.slide2 .card1 .content h1{
+    color: black;
+    font-size: 2.5em;
+}
+.slide2 .card1 .content{
+    display: flex;
+    justify-content: center;
+}
+
+
+.slide2 .card2 .content h1{
+    color: black;
+    font-size: 2.5em;
+}
+.slide2 .card2 .content{
+    display: flex;
+    justify-content: center;
+}
+.slide3{
+    background-color: rgb(0, 0, 0);
+    color: black;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 90vh;
+    
+    
+justify-items: center;}
+.slide3 h1{
+    
+    display: flex;
+justify-content: center;
+margin-bottom: 5%;}
+.slide3 .holder{
+    height:90% ;
+    width: 100%;
+background-color: #00c3ff;
+margin: 5% 0;
+}
+
+@media screen and (max-width: 500px) {
+    
+    .slide2{
+        flex-direction: column;
+        padding: 5%;
+        width: 99vw;
+        
+
+                
+       
+    }
+    .slide2 .card1{
+        background-image: linear-gradient(to left,rgb(131, 36, 255),blue);
+        height: 50vh;
+        width: 100%;
+        margin-bottom:7% ;
+    }
+    .slide2 .card2{
+        height: 50vh;
+        width: 100%;
+        margin-bottom:7% ;
+
+    }
+
+    .slide2 .card1 .content h1{
+        color: white;
+
+    }
+}
+.slide4{
+    background-color: white;
+    height: 50vh;
+    width: 100%;
+    color: #000000;
+    padding: 5%;
+}
+.slide4 h1{
+    
+    text-align: center;
+    font-size: 2.5em;
+
+
+}
+.slide4 .content ul li{
+    list-style: none;    text-align: center;
+
+}
+
+.slide4 .content{
+    height:80%;
+
+    background-color: #000000;
+    color: white;
+    margin-top: 5%;
+    padding: 5%;
+    justify-content: center;
+}
