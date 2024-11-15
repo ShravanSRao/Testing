@@ -227,7 +227,7 @@ display: flex;
     display: flex;
     flex-direction: column;
     color: white;
-    height: 90vh;
+    height: auto;
     
     
 justify-items: center;}
