@@ -74,6 +74,11 @@ align-items: center;
     font-size: 1.5em;
     
 }
+.subsections ul li a.active{
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+    border-radius: 20px;
+}
 
 @media screen and (max-width: 590px) {
     .navbar .subsections {
